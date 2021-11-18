@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">   
+             
+</head>
+<body>
+    <div class="main">
+
+    <img src="./image/clock_logo.png" alt="">
+        
+        <div class="time-container-main">
+            
+            <div class="time-background-container1"></div>
+            <div class="time-background-container2"></div>
+            <div class="time-box time">TIME</div>
+            <div class="time-box hour" id="clockHour"></div>
+            <div class="colon1">:</div>
+            <div class="time-box mins " id="clockMin"></div>
+            <div class="colon2">:</div>
+            <div class="time-box secs " id="clockSec"></div>
+            <div class="time-box am " id="clockPeriod"></div>
+
+        </div>
+        <div class="container">
+            <div class="contentBox">
+                <table class="table">
+                    <tr>
+                        <td class="tableTd"><img src="./image/wake_up.svg" alt=""></td>
+                        <td class="tableTd">Set wake up time</td>
+                        <td class="tableTd">
+                            <select name="wakeUpTime" class="tableOption" id="wakeUpTime">
+                                <option value="">4 AM - 5 AM</option>
+                                <option value="">5 AM - 6 AM</option>
+                                <option value="">6 AM - 7 AM</option>
+                                <option value="">7 AM - 8 AM</option>
+                                <option value="">8 AM - 9 AM</option>
+                                <option value="">9 AM - 10 AM</option>
+                                <option value="">10 AM - 11 AM</option>
+                                <!-- <option value="">11 AM - 12 PM</option> -->
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td><div class="vrLine"></div></td> </tr>
+                    <tr>
+                        <td class="tableTd"><img src="./image/lunch_time.svg" alt=""></td>
+                        <td class="tableTd">Set lunch time</td>
+                        <td class="tableTd">
+                            <select name="wakeUpTime" class="tableOption"id="wakeUpTime">
+                                <option value="">12 PM - 1 PM</option>
+                                <option value="">1 PM - 2 PM</option>
+                                <option value="">2 PM - 3 PM</option>
+                                <option value="">3 PM - 4 PM</option>
+                                <option value="">4 PM - 5 PM</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td><div class="vrLine"></div></td> </tr>
+                    <tr>
+                        <td class="tableTd"><img src="./image/nap_time.svg" alt=""></td>
+                        <td class="tableTd">Set nap time</td>
+                        <td class="tableTd">
+                            <select name="wakeUpTime"class="tableOption"  id="wakeUpTime">
+                                <option value="">5 PM - 6 PM</option>
+                                <option value="">6 PM - 7 PM</option>
+                                <option value="">7 PM - 8 PM</option>
+                                <option value="">8 PM - 9 PM</option>
+                                <option value="">9 PM - 10 PM</option>
+                                <option value="">10 PM - 11 PM</option>
+                                <option value="">11 PM - 12 aM</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <div class="massage"> GOOD AFTER NOON</div>
+                <button class="btn">Set Now</button>
+            </div>
+            
+
+            
+            <div class="imageBox"> <img width="471" src="./image/lunch_image.svg" alt="" srcset=""></div>
+        </div>
+    
+<div class="footer">
+    <span >&copy; 2021 Adity kumar . All rights reserved.</span>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
